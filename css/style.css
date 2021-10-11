@@ -181,7 +181,7 @@ header{
 @media screen and (min-width: 800px){
   nav{
     padding: 30px 0;
-    /* Your code here */
+    text-align:right;
   }
 
   .container{
