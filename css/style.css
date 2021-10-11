@@ -108,12 +108,14 @@ nav a:hover{
 header{
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
+  background-repeat: no-repeat;
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
   grid-column:1/-1;
   grid-row:1/span 1;
-  background: url(file:///Users/elizabethyang/Downloads/hw5-2021-main/images/header.jpg);
+  background-image: url(file:///Users/elizabethyang/Downloads/hw5-2021-main/images/header.jpg);
+  
 
   /* YOUR CODE HERE; */
 }
@@ -172,7 +174,9 @@ header{
   border: 10px solid black;
   padding: 30px;
   height: fit-content;
-  margin:auto;
+  justify-content: center;
+  align-self: center;
+
 
   /* Your code here */
 
